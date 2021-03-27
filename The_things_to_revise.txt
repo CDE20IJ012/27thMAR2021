@@ -1,0 +1,90 @@
+
+
+I am a Full Stack Developer =====>
+
+ From frontend to backend including testing should be the part of your learning.
+
+-----------------------------------------------------------------------------------------------------------
+JSE ====> Standalone application
+
+1) Logic Building ( DS and logic building ).
+2) Object Oriented Contcepts 
+       * Class and Object
+       * Features of OOPS
+3) Exception handling 
+       * User Defined Exceptions/Customized Exceptions
+4) Thread / Multithreading
+       *APIs which are thread safe
+                **** StringBuffer, Vector
+       * synchronized  
+5) I/O 
+   * Serialization/Deserialization
+6) Collection Framework
+7) Annotations 
+8) Wrapper classes and String related classes ( String, StringBuffer, StringBuilder)
+9) JDBC
+--------------------------------------------------------------------------------------------------------------
+JEE =====> Enterprise applications
+   * JSP and Servlet ( MVC ( Model view Controller )
+   * EJB ( Spring )
+   * JMS
+   * JNDI 
+   * JTA 
+       
+JME======> ( Java Micro Edition )
+
+
+-------------------------------------------------------------------------------------------------------------
+Spring =====> DI and IOC
+Spring Core 
+----------------------------------------------------------------------------------------------------
+Spring MVC 
+--------------------------------------------------------------------------------------------------
+Spring Boot 
+-----------------------------------------------------------------------------------------------------
+Spring Boot and MVC
+-------------------------------------------------------------------------------------------------------
+ORM
+Hibernate :-
+    Hibernate as an ORM
+Hibernate with Spring ( JPA ------> Java Persistence API )
+         one to one
+         Many to one
+         one to Many
+         Many to Many
+HQL =======> hibernate Query Language 
+Life cycle of the Entity object ( phases )
+Transient
+Persist
+Detached
+Destroyed
+--------------------------------------------------------------------------------------------------------------
+
+HTML5/CSS3 
+HTML5 and CSS3 they gave us more towards designing Responsive Web Pages.
+   |
+   |
+ Bootstrap 4
+JavaScript =====> extension========> JQuery
+
+------------------------------------------------------------------------------------------------------------
+To strengthen our coding with the backend 
+    Design Principles and Design Patterns
+------------------------------------------------------------------------------------------------------------
+Best Practices / Coding Conventions
+    SAT 
+     ======> PMD
+     ======> Firebug
+     ======> Sonarqube
+------------------------------------------------------------------------------------------------------------- 
+
+
+
+
+
+
+
+
+       
+
+

@@ -1,0 +1,75 @@
+mvn sonar:sonar -Dsonar.projectKey=key -Dsonar.host.url=http://127.0.0.1:9000 -Dsonar.login=admin -Dsonar.password=password@123 -Dsonar.source=./src
+
+https://dzone.com/articles/smells-in-java-code-do-you-recognize-them
+
+STEP1 The below site is for Sonarqube related download:-
+
+https://www.sonarqube.org/
+
+
+sonarqube-8.7.0.41497
+
+[ Note: Download will be as zipped file ]
+
+STEP2 We need to extract the zipped file.
+
+STEP3: We need to move to the bin ( binary folder) and within the bin folder move to windows-x86-64.
+<PATHofyoursystem>\sonarqube-8.7.0.41497\bin\windows-x86-64
+
+STEP4 : after moving to the folder windows-x86-64. We will get a batch file called StartSonar.bat.
+
+STEP5: just in the command prompt , write 
+   StartSonar
+
+The sonarqube application will start with the
+  
+  IP address : 127.0.0.1 ( loopback IP address)
+  port: 9000
+
+STEP6 : Open any web browser of your choice and in the address bar
+http://127.0.0.1/9000
+
+[Note : It will display the login screen ]
+ For the first time the login: admin
+                        password: admin
+
+STEP7: After we login through the credentials mentioned , login and change the password.
+
+STEP 8 : login to the sonarqube application
+------------------------------------------------------------------------------------------------
+What is SonarScanner and why do we need it?
+SonarScanner is a separate client type application that in connection with the SonarQube server will run project analysis and then send the results to the SonarQube server to process it. SonarScanner can handle most programming languages supported by SonarQube except C# and VB. 
+
+https://blog.setapp.pl/how-to-use-sonarscanner#:~:text=SonarScanner%20is%20a%20separate%20client,SonarQube%20server%20to%20process%20it.&text=It%20is%20usually%20located%20on,depending%20on%20your%20project%20flow.
+
+https://medium.com/@amitvermaa93/sonarqube-setup-windows-e6a6c01be025
+
+
+
+STEP9 : Let us install sonar scanner
+[ The link https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner]
+
+sonar-scanner-cli-4.6.0.2311-windows
+
+STEP10 : After downloading the zip for sonar scanner, we set the path for the sonar scanner.
+
+<pathofyoursystem>\sonar-scanner-cli-4.6.0.2311-windows\sonar-scanner-4.6.0.2311-windows\bin
+-------------------------------------------------------------------------------------------------------
+
+STEP11: we need to scan with sonar scanner and submit the result to the SonarQube server to process it.
+
+mvn sonar:sonar -Dsonar.projectKey=demo -Dsonar.host.url=http://127.0.0.1:9000 -Dsonar.login=admin -Dsonar.password=password@123 -Dsonar.source=./src
+
+So the above command we give from the command of the project whose code we want to scan.
+
+
+[Note : For the above command we should have maven installed ]
+
+after downloading maven set the environmental variable for MAVEN
+
+Variable name MAVEN_HOME 
+Variable value C:\apache-maven-3.6.0-bin\apache-maven-3.6.0
+
+set the path and add the path for maven
+
+%MAVEN_HOME%\bin
